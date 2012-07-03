@@ -1,12 +1,30 @@
-<object data="pdf/cloud_computing_white_paper.pdf" type="application/pdf" width="100%" height="100%">
- 
-  <p>It appears you don't have a PDF plugin for this browser.
-  You can download the file here: <a href="pdf/cloud_computing_white_paper.pdf">cloud_computing_white_paper.pdf</a></p>
-  
-</object>
+I just changed a file!
 
-<script type="text/javascript">
-	window.onload = function (){
-    var success = new PDFObject({ url: "pdf/cloud_computing_white_paper.pdf" }).embed();
-  };
-</script>
+This is going to be an explanation of how to use git!
+
+start with:
+> git pull
+
+Optional:
+	If you mess up, just check it out again before you add stuff
+	> git checkout master
+
+then change files as needed.
+> git add .
+
+Option:
+	If you mess up after adding, do:
+	> git reset
+
+then commit your changes
+> git commit -m "YOUR MESSAGE HERE"
+
+Optional: 
+	If you mess up here:
+	> git revert
+
+finally push it online so i can see it
+> git push
+
+Optional:
+	If something bad happened, call me
