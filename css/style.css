@@ -1,0 +1,255 @@
+body {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fff,  #eee); /* for firefox 3.6+ */ 
+	background-color: #fff;
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+/* Header */
+
+header {
+	padding-top: 15px;
+	background-color: #0B610B;
+	color: white;
+	height: 55px;
+	margin-top: 10px;
+	
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 100px 55px;
+	position: relative;
+	
+	-moz-box-shadow: 5px 10px 10px #888;
+	-webkit-box-shadow: 5px 10px 10px #888;
+	-webkit-box-shadow: 10px 0px 5px -2px #888 ;
+
+	box-shadow: 3px 0px 8px -2px #AAA;
+}
+
+header div {
+	margin-top: 15px;
+	font-size: 50pt;
+	font-weight: 300;
+	margin-left: 18px;
+	letter-spacing: -2px;
+	text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+/* Wrapper */
+
+div.main {
+	background-color: #fff;
+	padding: 20px 0px;
+	border: 2px solid #0B610B;
+	
+	-moz-box-shadow: 5px 10px 10px #888;
+	-webkit-box-shadow: 5px 10px 10px #888;
+	box-shadow: 1px 0px 10px #888;
+}
+
+/* Left Navigation */
+
+div.navigation {
+	margin-left: 0;
+  padding-left: 20px;
+	height: 100%;
+	border-right: 1px solid #EEE;
+}
+
+div.navigation img {
+	margin-bottom: 10px;
+	width: 85%;
+}
+
+nav ul {
+	padding-left: 5px;
+	padding-right: 35px;
+}
+
+nav li {
+	margin-top: 12px;
+}
+
+a {
+	font-size: 13pt;
+	/* font-family: Andale Mono, Monaco; */
+	color: #0B610B;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #01DF01;
+	text-decoration: none;
+}
+
+nav h4 {
+	margin-top: 75px;
+	margin-bottom: 5px;
+}
+
+.sub-menu {
+	margin: 5px 0px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	-moz-box-shadow: 0 0 5px #707070;
+	-webkit-box-shadow: 0 0 5px #707070;
+	box-shadow: 0 0 5px #707070;
+	
+	border-radius: 5px 5px 5px 5px;
+	border-bottom-right-radius: 50px 25px;
+	
+	border: 1px solid #A8A8A8; 
+}
+
+address {
+	padding-left: 3px;
+	margin-top: 50px;
+}
+
+address h4 {
+	padding-left: 2px;
+	padding-bottom: 7px;
+}
+
+address ul {
+	padding: 0px;
+}
+
+address li {
+	margin: 0px;
+	margin-top: 1px;
+}
+
+address a.email {
+	font-size: 11pt;
+	letter-spacing: -0.05em;
+}
+
+/* Main Content */
+
+div.content {
+	margin-left: 0px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-top: 1px;
+}
+
+div.wrapper {
+	margin-top: -7px;
+	padding-left: 30px;
+	padding-right: 15px;
+}
+
+div.wrapper h3 {
+	margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+	height: 15px;
+	margin-bottom: 30px;
+	background-color: #0B610B;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom: 1px solid #444;
+	
+	-moz-box-shadow: 5px 10px 25px #333;
+	-webkit-box-shadow: 5px 10px 25px #333;
+	box-shadow: 1px 5px 15px #444;
+}
+
+div.closing-line {
+	border-top: 1px solid rgba(255,255,255,0.6);
+	margin-top: 10px;
+	margin-left: 25px;
+	width: 910px;
+}
+
+/* Home */
+#word-cloud {
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+
+/* About */
+#about img {
+	margin-top: 80px;
+}
+
+ul.swirl {
+	list-style-image: url(../img/bulletpoint_swirl.png);
+	font-size: 1.05em;
+	margin-left: 40px;
+}
+
+ul.swirl li {
+	line-height: 20px;
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+/* Resume */
+
+#resume h3 {
+	color: #0B610B;
+}
+
+/* Documents */
+
+#doc {
+	padding: 20px;
+}
+
+#doc img {
+	border: 1px solid #eee;	
+}
+
+ul.pagination {
+	margin-left: 20px;
+}
+
+ul.pagination img {
+	width: 130px;
+}
+
+span.download {
+	font-size: 1.15em;
+	color: black;
+	margin-top: 20px;
+}
+
+/* Blog */
+#blog h1 {
+	margin-bottom: 2px;
+}
+
+#blog span.subtitle {
+	color: #999;
+	font-size: 1.5em;
+}
+
+#blog img {
+	width: 97%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div.blog-nav {
+  width:100%;
+	margin-top: 25px;
+	padding-top: 5px;
+	border-top: 1px solid #777;
+}
+
+
+
+
+

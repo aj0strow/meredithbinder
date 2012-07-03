@@ -1,0 +1,43 @@
+<head>
+	<title>Meredith Binder</title>
+	
+	<!-- Meta Data -->
+	<meta charset="utf-8" />
+	<meta name="description" content="Meredith Binder"/>
+	<meta name="keywords" content="meredith, binder, meredith binder"/>
+	
+	<!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<link rel="stylesheet" href="css/style.css" /> 
+	
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#samples').slideUp().stop(true, true);
+			$('#samples-toggle').bind('click', function(){
+				$('#samples').stop(true, false).slideToggle('slow');
+			});
+			
+			$('#blogs').slideUp().stop(true, true);
+			$('#blogs-toggle').bind('click', function(){
+				$('#blogs').stop(true, false).slideToggle('slow');
+			});
+			
+			// Get heights
+			var header = $('header').outerHeight(true);
+			var nav = $('div.navigation').outerHeight(true);
+			
+			var difference = $(window).height() - (header + nav + 10); //The 10 for bottom padding
+			if(difference > 0) $('address').css({'padding-top' : '+=' + difference});
+		});
+	</script>
+
+</head>
