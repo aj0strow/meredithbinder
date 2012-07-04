@@ -21,7 +21,7 @@
 					</h3>
 					<p>
 						The instructor handed out a poorly formatted back and white installation and 
-						each student to designed a new layout. The audience includes 
+						each student designed a new layout. The audience includes 
 						technicians, IT professionals, and non-technical employees such as secretaries. An 
 						audience analysis revealed that most audience members would use the manual for a 
 						reference. Reference users need be able to easily scan a document and pick out points 
