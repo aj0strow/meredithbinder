@@ -20,11 +20,11 @@
 						Class Assignment in Writing Software Instructions
 					</h3>
 					<p>
-						Our class assignment was to write a set of instructions for downloading a software application. 
+						These instructions show the user how to download a software application. They are targeted to a non-technical audience. 
 						This assignment assumes that the instructions will be published in hard copy.
 					</p>
 					<br />
-					Sample pages:
+					Sample pages (click to enlarge):
 					
 					<div class="row">
 						<ul class="unstyled pagination">

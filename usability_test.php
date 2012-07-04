@@ -20,7 +20,7 @@
 						Class Assignment in Software Help Documentation and Usability Testing
 					</h3>
 					<p>
-						The instructor divided the class into groups of four students. Each group picked a feature 
+						Each group picked a feature 
 						from the UW intranet website, Catalyst, to redesign. The redesign included audience analysis, 
 						designing, and testing. Each group presented their paper to the UW Catalyst software team. 
 						We hope the team will implement some of our projects.
@@ -34,7 +34,7 @@
 						edited together the written information.
 					</p>
 					<br />
-					Sample pages:
+					Sample pages (click to enlarge):
 					
 					<div class="row">
 						<ul class="unstyled pagination">

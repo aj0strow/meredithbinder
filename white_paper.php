@@ -20,15 +20,13 @@
 						Class Assignment in White Papers
 					</h3>
 					<p>
-						Each student wrote a persuasive white paper and presented the material in the paper to the class. 
-						The instructor required us make a PowerPoint slides for the presentation and a one-page fact sheet 
-						to hand out to the audience members. I wrote a white paper for a fictitious cloud storage provider 
+						I wrote a white paper for a fictitious cloud storage provider 
 						named <em>Silver Lining</em>. My target audience is technical and non-technical managers and software engineers 
 						who work for web retailers. My paper presents factual information on cloud computing, the history of 
 						the <em>Silver Lining</em> company, and a gentle sales pitch.
 					</p>
 					<br />
-					Sample pages:
+					Sample pages (click to enlarge):
 					
 					<div class="row">
 						<ul class="unstyled pagination">
