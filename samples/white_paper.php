@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include('partials/head.html'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/partials/head.html'); ?>
 
 <body>
 	<div class="container">
 		
-		<?php include('partials/header.html'); ?>
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/partials/header.html'); ?>
 		
 		<div class="row main">
 			
 			<!-- Navigation -->
-			<?php include('partials/nav.html'); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . '/partials/nav.html'); ?>
 			
 			<div class="span9 content">
 				<div id="home" class="wrapper">
@@ -32,37 +32,37 @@
 						<ul class="unstyled pagination">
 							<li id="0">
 								<a>
-									<img src="img/white_paper/thumbnails/0.png" />
+									<img src="/img/white_paper/thumbnails/0.png" />
 								</a>
 							</li>
 							<li id="1">
 								<a>
-									<img src="img/white_paper/thumbnails/1.png" />
+									<img src="/img/white_paper/thumbnails/1.png" />
 								</a>
 							</li>
 							<li id="2">
 								<a>
-									<img src="img/white_paper/thumbnails/2.png" />
+									<img src="/img/white_paper/thumbnails/2.png" />
 								</a>
 							</li>
 							<li id="3">
 								<a>
-									<img src="img/white_paper/thumbnails/3.png" />
+									<img src="/img/white_paper/thumbnails/3.png" />
 								</a>
 							</li>
 						</ul>
 					</div>
 					
 					<div id="doc" class="row">
-						<img src="img/white_paper/docs/0.png" />
+						<img src="/img/white_paper/docs/0.png" />
 					</div>
 					<br />
 					<span class="alert alert-success download">
-						Download: <a href="pdf/white_paper.pdf">white_paper.pdf</a>
+						Download: <a href="/pdf/white_paper.pdf">white_paper.pdf</a>
 					</span>
 					&nbsp; &nbsp;
 					<span class="alert alert-success download">
-						Download: <a href="pdf/fact_sheet.pdf">fact_sheet.pdf</a>
+						Download: <a href="/pdf/fact_sheet.pdf">fact_sheet.pdf</a>
 					</span>
 				</div>
 				
@@ -70,11 +70,11 @@
 			
 		</div>
 		
-		<?php include('partials/footer.html'); ?>
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/partials/footer.html'); ?>
 		
 	</div>
 
-	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="/js/jquery.scrollTo.js"></script>
 	<script type="text/javascript">
 		$.ajaxSetup ({  
         cache: false  
@@ -86,7 +86,7 @@
     
     function loadPage(i)
     {
-    	$('#doc').html('<img src="img/white_paper/docs/' + i + '.png" />');
+    	$('#doc').html('<img src="/img/white_paper/docs/' + i + '.png" />');
     	$.scrollTo('#doc', {'duration' : 500});
     }  
     
