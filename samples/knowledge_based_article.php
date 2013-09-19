@@ -41,7 +41,7 @@
 									<img src="/img/knowledge_based_article/thumbnails/2.png" />
 								</a>
 							</li>
-							<li id="2">
+							<li id="3">
 								<a>
 									<img src="/img/knowledge_based_article/thumbnails/3.png" />
 								</a>
