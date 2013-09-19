@@ -3,28 +3,28 @@ I just changed a file!
 This is going to be an explanation of how to use git!
 
 start with:
-> git pull
+$ git pull
 
 Optional:
 	If you mess up, just check it out again before you add stuff
-	> git checkout master
+	$ git checkout master
 
 then change files as needed.
-> git add .
+$ git add .
 
 Option:
 	If you mess up after adding, do:
-	> git reset
+	$ git reset
 
 then commit your changes
-> git commit -m "YOUR MESSAGE HERE"
+$ git commit -m "YOUR MESSAGE HERE"
 
 Optional: 
 	If you mess up here:
-	> git revert
+	$ git revert
 
 finally push it online so i can see it
-> git push
+$ git push
 
 Optional:
 	If something bad happened, call me
